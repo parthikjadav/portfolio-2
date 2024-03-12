@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+*.log
+*.tgz
+debug
+cypress/videos
+cypress/screenshots
+cypress/downloads
+.vscode
+.dccache

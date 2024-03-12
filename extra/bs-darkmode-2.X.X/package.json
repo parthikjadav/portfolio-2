@@ -1,0 +1,55 @@
+{
+  "name": "bs-darkmode",
+  "version": "2.0.0",
+  "description": "Bootstrap Darkmode is a bootstrap plugin/widget that supports toggling between light and dark theme",
+  "main": "js/bs-darkmode.jquery.min.js",
+  "files": [
+    "css/*",
+    "js/*"
+  ],
+  "scripts": {
+    "build": "grunt",
+    "postversion": "grunt",
+    "prepublishOnly": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palcarazm/bs-darkmode.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "dark-theme",
+    "dark-mode",
+    "darkmode",
+    "dark-mode-toggle",
+    "bootstrap-dark-mode"
+  ],
+  "author": {
+    "name": "Pablo Alcaraz Martínez",
+    "url": "https://github.com/palcarazm"
+  },
+  "funding": {
+    "type": "GitHub Sponsors",
+    "url": "https://github.com/sponsors/palcarazm"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palcarazm/bs-darkmode/issues"
+  },
+  "homepage": "https://palcarazm.github.io/bs-darkmode",
+  "devDependencies": {
+    "doctoc": "^2.2.0",
+    "grunt": "^1.5.3",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-uglify": "^5.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "dompurify": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "jquery": "^3.6.0"
+  }
+}

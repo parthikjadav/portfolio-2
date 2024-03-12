@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>bs-darkmode | Test App</title>
+	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/bs-darkmode.css">
+
+	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="../js/bs-darkmode.jquery.js"></script>
+
+	<script>
+		const INTERFACE = 'JQUERY';
+		let Bootstrap;
+		let plugin;
+	</script>
+</head>
+
+<body class="bg-light p-4">
+	<div id="appHeader" class="container position-sticky bg-light" style="top: 0rem;z-index: 1;">
+		<div class="row align-items-center">
+			<div class="col-10">
+				<h1 class="text-primary fw-light">Test App: bs-darkmode</h1>
+			</div>
+			<div class="col-2 text-end" id="env-data"></div>
+		</div>
+		<div class="btn-group" role="group" id="test-selector"></div>
+		<div class="px-1 text-muted fw-bolder" id="description">
+			<button class="btn btn-primary" data-plugin="bsdarkmode" data-root="main" data-allowsCookie="true"></button>
+		</div>
+		<hr>
+	</div>
+	<main class="container px-3 py-3 rounded">
+		<section data="src/colors.html"></section>
+		<section data="src/background.html"></section>
+		<section data="src/border.html"></section>
+		<section data="src/jumbotron.html"></section>
+		<section data="src/alert.html"></section>
+		<section data="src/badge.html"></section>
+		<section data="src/btn-solid.html"></section>
+		<section data="src/btn-outline.html"></section>
+		<section data="src/progress-bar.html"></section>
+		<section data="src/card.html"></section>
+		<section data="src/table.html"></section>
+		<section data="src/form.html"></section>
+		<section data="src/breadcrumb.html"></section>
+		<section data="src/navbar.html"></section>
+		<section data="src/nav.html"></section>
+		<section data="src/list-group.html"></section>
+	</main>
+</body>
+
+<script src="/node_modules/dompurify/dist/purify.min.js"></script>
+<script src="test-app.js"></script>
+<!--<script src="test-loader.js"></script>
+<script src="test-runner.js"></script>-->
+
+</html>
